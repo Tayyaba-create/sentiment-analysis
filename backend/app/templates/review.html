@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        textarea {
+            width: 50%;
+            height: 100px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Review Sentiment Analyzer</h2>
+    <form action="/review_prediction" method="POST">
+        <textarea name="review" placeholder="Enter your review here..." required></textarea><br>
+        <button type="submit">Predict Sentiment</button>
+    </form>
+
+    {% if sentiment %}
+        <p class="result">Sentiment: {{ sentiment }}</p>
+    {% endif %}
+</body>
+</html>
