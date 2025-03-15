@@ -2,7 +2,7 @@ Flask
 markupsafe
 numpy
 pandas
-joblib
 requests
 scikit-learn
 flask-cors
+gunicorn
