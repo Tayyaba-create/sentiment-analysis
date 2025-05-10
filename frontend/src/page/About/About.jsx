@@ -9,12 +9,12 @@ const About = () => {
       task: "Data pipeline development & preprocessing optimization",
     },
     {
-      name: "Tayyaba Faisal",
+      name: "Eman Fatima",
       role: "Frontend Architect",
       task: "Responsive UI/UX design & interactive component development",
     },
     {
-      name: "Eman Fatima ",
+      name: "Tayyaba Faisal ",
       role: "Model Training",
       task: "Sentiment Analysis Algorithms",
     },
