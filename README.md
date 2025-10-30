@@ -93,6 +93,5 @@ Modular design for easy model upgrades and cloud deployment
 
 Ideal as a foundation for AI-powered customer feedback analysis, review classification, or social media monitoring
 
-🔗 Repository: SentimentSphere AI
 
 ⭐ Developed by: Tayyaba Faisal
